@@ -1,0 +1,48 @@
+TALLER JAVA - EJERCICIOS 1 AL 5 Y SUS AMPLIACIONES
+
+COMO ABRIR Y EJECUTAR
+1. Abre en NetBeans la carpeta TallerJava que contiene pom.xml.
+2. Ejecuta el proyecto con F6.
+3. Escribe la opcion del menu en la ventana Output y pulsa Enter.
+
+MENU PRINCIPAL
+1. Cajero automatico
+2. Registro academico
+3. Tienda online
+4. Agenda de contactos
+5. Sistema de notas con curva
+0. Salir
+
+1. CAJERO AUTOMATICO
+Cuentas para practicar: Ana (ahorro, PIN 1234) y Luis (corriente, PIN 5678).
+Incluye tres intentos, bloqueo, consultas, retiros, depositos, transferencias,
+los ultimos cinco movimientos, cuentas de ahorro con interes del 1% por deposito
+y cuenta corriente con sobregiro de $20000.
+
+2. REGISTRO ACADEMICO
+Cada estudiante puede tener varias asignaturas y faltas. Aprueba con promedio
+minimo 6 y menos de 10 faltas. Muestra estadisticas, permite buscar estudiantes,
+modificar notas y guardar el reporte en reporte_curso.txt.
+
+3. TIENDA ONLINE
+El cliente ingresa nombre y email. Permite filtrar por categoria y comprar del
+inventario. Los productos alimenticios muestran caducidad; los electronicos,
+garantia. Al superar $1000 de subtotal, se aplica 10% de descuento.
+El stock se conserva mientras el programa siga abierto.
+
+4. AGENDA
+Permite guardar multiples contactos con nombre, telefono de 9 digitos, email y
+grupo. Busca por nombre parcial, filtra por grupo y guarda los contactos en
+agenda.txt para volver a cargarlos en la siguiente ejecucion.
+
+5. NOTAS CON CURVA
+El promedio original pondera parcial 1 al 30%, parcial 2 al 30% y examen al 40%.
+Si la media es menor que 6, se elige entre aumentar 10% las notas o sumar a todos
+la diferencia necesaria para que la nota mas alta llegue a 10. La nota final no
+supera 10. Muestra media, desviacion estandar y alumnos recuperados.
+
+Todas las notas van de 0 a 10. Los numeros aceptan punto o coma decimal. La
+agenda.txt y el reporte_curso.txt se crean junto al proyecto al guardar.
+
+Se requiere JDK 8 o posterior y soporte Maven de NetBeans. No hay bibliotecas
+externas.
